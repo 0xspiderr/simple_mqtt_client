@@ -2,7 +2,7 @@
 
 topic=$1
 if [ -z $topic ]; then
-	echo "scriptul are nevoie de un topic ca argument"
+	echo "folosire script:\n\tsub_simplu.sh [topic]"
 	exit
 fi
 
